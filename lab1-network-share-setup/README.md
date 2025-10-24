@@ -20,11 +20,9 @@ This lab demonstrates the process of setting up a static IP configuration, verif
 ### 1️⃣ Server IP Configuration
 Configured the **DC01** network adapter with a static IP to act as the local server.
 
-IP Address: 192.168.56.10
-Subnet Mask: 255.255.255.0
+IP Address: 192.168.56.10  
+Subnet Mask: 255.255.255.0  
 Preferred DNS: 127.0.0.1
-
-
 
 ![Server IP Configuration](./screenshots/server-ip-config.png)
 
@@ -33,11 +31,9 @@ Preferred DNS: 127.0.0.1
 ### 2️⃣ Client IP Configuration
 Configured **Workstation01** to communicate within the same subnet and point DNS to the server.
 
-IP Address: 192.168.56.11
-Subnet Mask: 255.255.255.0
+IP Address: 192.168.56.11  
+Subnet Mask: 255.255.255.0  
 Preferred DNS: 192.168.56.10
-
-
 
 ![Client IP Configuration](./screenshots/client-ip-config.png)
 
@@ -61,6 +57,7 @@ Created a local user account **jdoe** on **DC01** for controlled file-share acce
 Created a folder `C:\Shared`, configured share permissions for the `jdoe` account with **Read** and **Change** privileges (least-privilege access).
 
 ![Shared Folder Access](./screenshots/shared-folder.png)
+
 ---
 
 ### 6️⃣ Client Connection Test
@@ -68,7 +65,6 @@ Accessed the shared folder from the client using `\\192.168.56.10`.
 Authenticated as **DC01\jdoe**.
 
 ![Share Permissions](./screenshots/client-share-access.png)
-
 
 ---
 
@@ -98,3 +94,45 @@ From **Workstation01**, created a text file `test.txt` inside the shared folder 
 
 **Author:** Luis Chris Mejia  
 **Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
+
+---
+
+## 🧾 YAML Summary
+```yaml
+lab:
+  id: 1
+  title: "Network File Sharing Setup"
+  objective: "Configure a client–server environment with secure shared folder access using local user permissions."
+  environment:
+    virtualization_tool: "UTM (macOS host)"
+    server: "Windows 11 Pro - DC01"
+    client: "Windows 11 Pro - Workstation01"
+    network_type: "Host-Only (192.168.56.0/24)"
+  tasks:
+    - Configure static IP addressing
+    - Test connectivity with ping
+    - Create local user account (jdoe)
+    - Configure shared folder with read/write permissions
+    - Verify access from client
+  outcomes:
+    - Verified server-client communication
+    - Confirmed secure folder sharing with user authentication
+  skills:
+    - Windows Networking
+    - File Sharing & NTFS Permissions
+    - User Management
+    - Documentation
+author: "Luis Chris Mejia"
+repository: "https://github.com/ChrisCyberTech/help-desk-portfolio"
+yaml
+
+
+---
+
+
+
+
+
+
+
+
