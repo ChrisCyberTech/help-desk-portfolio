@@ -37,7 +37,7 @@ yaml
 | Password must meet complexity requirements | Enabled |
 | Store passwords using reversible encryption | Disabled |
 
-📸 **Screenshot:** (./screenshots/password-policy-settings.png)
+![Password Policy](./screenshots/password-policy-settings.png)
 
 
 
@@ -59,7 +59,7 @@ yaml
 | Reset account lockout counter after | 15 minutes |
 | Allow Administrator account lockout | Enabled |
 
-📸 **Screenshot:** `screenshots/account-lockout-policy.png`
+![Lockout Policy](./screenshots/account-lockout-policy.png)
 
 ---
 
@@ -69,7 +69,7 @@ gpupdate /force
 
 yaml
 
-📸 *(Optional if captured)* `screenshots/gpupdate-success.png`
+![GPUpdate Success](./screenshots/gpupdate-success.png)
 
 ---
 
@@ -85,7 +85,7 @@ Password: Test1234
 
 yaml
 
-📸 **Screenshot:** `screenshots/new-user.png`
+![New User](./screenshots/new-user.png)
 
 ---
 
@@ -95,7 +95,7 @@ yaml
 1. On the **Client VM**, attempt to log in as `testuser` using an incorrect password three times.
 2. Observe the lockout message.
 
-📸 **Screenshot:** `screenshots/account-locked-message.png`
+![Account Locked](./screenshots/account-locked-message.png)
 
 ---
 
@@ -103,10 +103,10 @@ yaml
 1. Right-click `testuser` → **Set Password...**
 2. Try to set a weak password such as `password`.  
 - Windows rejects it, showing a complexity error.  
-📸 **Screenshot:** `screenshots/password-complexity-fail.png`
+![Complexity Fail](./screenshots/password-complexity-fail.png)
 3. Try again with a strong password, for example `Test1234!`.  
 - Windows accepts it successfully.  
-📸 **Screenshot:** `screenshots/password-change-success.png`
+![Change Success](./screenshots/password-change-success.png)
 
 ---
 
@@ -117,17 +117,6 @@ yaml
 
 ---
 
-## 📁 Folder Structure
-Lab2-PasswordPolicy/
-│
-├── README.md
-└── screenshots/
-├── password-policy-settings.png
-├── account-lockout-policy.png
-├── new-user.png
-├── account-locked-message.png
-├── password-complexity-fail.png
-└── password-change-success.png
 
 yaml
 
