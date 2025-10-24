@@ -26,7 +26,7 @@ Preferred DNS: 127.0.0.1
 
 
 
-![Server IP Configuration](./screenshots/server-ip.png)
+![Server IP Configuration](./screenshots/server-ip-config.png)
 
 ---
 
@@ -39,7 +39,7 @@ Preferred DNS: 192.168.56.10
 
 
 
-![Client IP Configuration](./screenshots/client-ip.png)
+![Client IP Configuration](./screenshots/client-ip-config.png)
 
 ---
 
@@ -53,7 +53,7 @@ Pinged the server from the client to verify successful communication.
 ### 4️⃣ User Account Creation on Server
 Created a local user account **jdoe** on **DC01** for controlled file-share access.
 
-![User Creation](./screenshots/jdoe-user.png)
+![User Creation](./screenshots/user-create.png)
 
 ---
 
