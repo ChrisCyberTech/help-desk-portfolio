@@ -19,5 +19,5 @@ Set up a server-client environment, create a shared folder, and manage access fo
 ## Screenshots
 *(Add images from your `screenshots/` folder)*
 
-## Skills Demonstrated
+## Skills Demonstrated 
 Windows networking, file sharing, user management, authentication troubleshooting.
