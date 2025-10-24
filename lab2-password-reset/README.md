@@ -37,7 +37,10 @@ yaml
 | Password must meet complexity requirements | Enabled |
 | Store passwords using reversible encryption | Disabled |
 
-📸 **Screenshot:** `screenshots/password-policy-settings.png`
+📸 **Screenshot:** (./screenshots/password-policy-settings.png)
+
+
+
 
 ---
 
