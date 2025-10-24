@@ -24,8 +24,7 @@ IP Address: 192.168.56.10
 Subnet Mask: 255.255.255.0
 Preferred DNS: 127.0.0.1
 
-yaml
-Copy code
+
 
 ![Server IP Configuration](./screenshots/server-ip.png)
 
@@ -38,8 +37,7 @@ IP Address: 192.168.56.11
 Subnet Mask: 255.255.255.0
 Preferred DNS: 192.168.56.10
 
-yaml
-Copy code
+
 
 ![Client IP Configuration](./screenshots/client-ip.png)
 
