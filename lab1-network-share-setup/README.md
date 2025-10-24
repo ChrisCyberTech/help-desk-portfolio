@@ -60,15 +60,15 @@ Created a local user account **jdoe** on **DC01** for controlled file-share acce
 ### 5️⃣ Shared Folder Setup
 Created a folder `C:\Shared`, configured share permissions for the `jdoe` account with **Read** and **Change** privileges (least-privilege access).
 
-![Share Permissions](./screenshots/client-share-access.png)
-
+![Shared Folder Access](./screenshots/shared-folder.png)
 ---
 
 ### 6️⃣ Client Connection Test
 Accessed the shared folder from the client using `\\192.168.56.10`.  
 Authenticated as **DC01\jdoe**.
 
-![Shared Folder Access](./screenshots/shared-folder.png)
+![Share Permissions](./screenshots/client-share-access.png)
+
 
 ---
 
