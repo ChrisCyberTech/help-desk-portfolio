@@ -97,37 +97,6 @@ From **Workstation01**, created a text file `test.txt` inside the shared folder 
 
 ---
 
-## 🧾 YAML Summary
-```yaml
-lab:
-  id: 1
-  title: "Network File Sharing Setup"
-  objective: "Configure a client–server environment with secure shared folder access using local user permissions."
-  environment:
-    virtualization_tool: "UTM (macOS host)"
-    server: "Windows 11 Pro - DC01"
-    client: "Windows 11 Pro - Workstation01"
-    network_type: "Host-Only (192.168.56.0/24)"
-  tasks:
-    - Configure static IP addressing
-    - Test connectivity with ping
-    - Create local user account (jdoe)
-    - Configure shared folder with read/write permissions
-    - Verify access from client
-  outcomes:
-    - Verified server-client communication
-    - Confirmed secure folder sharing with user authentication
-  skills:
-    - Windows Networking
-    - File Sharing & NTFS Permissions
-    - User Management
-    - Documentation
-author: "Luis Chris Mejia"
-repository: "https://github.com/ChrisCyberTech/help-desk-portfolio"
-yaml
-
-
----
 
 
 
