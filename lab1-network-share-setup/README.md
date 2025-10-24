@@ -60,7 +60,7 @@ Created a local user account **jdoe** on **DC01** for controlled file-share acce
 ### 5️⃣ Shared Folder Setup
 Created a folder `C:\Shared`, configured share permissions for the `jdoe` account with **Read** and **Change** privileges (least-privilege access).
 
-![Share Permissions](./screenshots/shared-folder.png)
+![Share Permissions](./screenshots/client-share-access.png)
 
 ---
 
