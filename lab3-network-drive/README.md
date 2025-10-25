@@ -49,7 +49,7 @@ yaml
 Mapped the shared folder to **Z:** using:
 net use Z: "\192.168.64.3\Shared 3" /user:DESKTOP-SA0D9FB\Administrator 123 /persistent:yes
 
-arduino
+
 
 Mapping completed successfully.  
 ![Client Net Use Command](./screenshots/L3-07_Client_Command.png)
