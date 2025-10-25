@@ -61,7 +61,7 @@ yaml
 
 ![Client Net View](./screenshots/L3-04_Client_NetView.png)
 
----
+--- 
 
 ### 4. Drive Access and Confirmation
 Listed mapped drive contents:
