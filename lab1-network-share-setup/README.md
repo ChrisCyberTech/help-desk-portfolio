@@ -93,6 +93,7 @@ From **Workstation01**, created a text file `test.txt` inside the shared folder 
 ---
 
 **Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
 **Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
 
 ---

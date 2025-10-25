@@ -119,5 +119,9 @@ yaml
 
 ## 🏁 Summary
 This lab demonstrates how to enforce strong password policies and lockout thresholds in a Windows Server environment. The results confirm that repeated failed logins trigger account lockout, and weak passwords are rejected according to the configured complexity rules.
-✅ You can copy this final version into your Lab2-PasswordPolicy/README.md and push it to GitHub.
-Would you like me to give you the short commit message to pa
+
+---
+
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
