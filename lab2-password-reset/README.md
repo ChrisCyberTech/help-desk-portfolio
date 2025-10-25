@@ -41,7 +41,6 @@ yaml
 
 
 
-
 ---
 
 ### 2. Configure Account Lockout Policy
