@@ -70,7 +70,7 @@ dir
 
 yaml
 
-![Client Directory View](./screenshots/L3-07_Client.png)
+![Client Directory View](./screenshots/Client.png)
 
 Confirmed visibility of the mapped drive in File Explorer:  
 ![Client This PC Z Drive](./screenshots/L3-07_Client_ThisPC_ZDrive.png)
