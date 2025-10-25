@@ -87,8 +87,8 @@ From **Workstation01**, created a text file `test.txt` inside the shared folder 
 - IP Addressing and DNS Setup  
 - File Sharing & NTFS Permissions  
 - Local User Management  
-- Client Authentication  
-- Documentation of IT Lab Workflows  
+- Client Authentication   
+- Documentation of IT Lab Workflows   
 
 ---
 
