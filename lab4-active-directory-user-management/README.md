@@ -30,7 +30,7 @@ The focus is on organizational structure, role-based security groups, password a
 
 ### 7.1 — Create Company Organizational Unit
 Created a top-level **OU named “Company”** under `lab.local` to hold all departments.  
-![OU “Company” Created](./screenshots/"7.1 — OU “Company” created under lab.local.png")
+![OU_“Company”_Created](./screenshots/"7.1 — OU “Company” created under lab.local.png")
 
 ---
 
