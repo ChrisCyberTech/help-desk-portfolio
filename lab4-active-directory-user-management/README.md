@@ -90,7 +90,7 @@ Linked a new **HR Desktop Policy** GPO to the HR OU for restricted settings.
 
 ### 7.11 — Configure Desktop Restriction Policy
 Inside the HR Desktop Policy, configured “Disable all items” under Desktop restrictions.  
-![7.11 Desktop Restriction Policy Configured](./screenshots/"7.11 Desktop Restriction Policy Configured for HR OU.png")
+![7.11 Desktop Restriction Policy Configured](./screenshots/7.11-Desktop-Restriction-Policy-HR-OU.png)
 
 
 ---
