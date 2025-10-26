@@ -97,7 +97,7 @@ Inside the HR Desktop Policy, configured “Disable all items” under Desktop r
 
 ### 7.12 — Verify HR Desktop Policy Application
 Logged in as **LAB\Emily.Perez** and verified GPO application using `gpresult /r`.  
-![7.12 HR Desktop Policy Applied](./screenshots/7.12%20–%20HR%20Desktop%20Policy%20Applied%20to%20HR%20User.png)
+![7.12 HR Desktop Policy Applied](./screenshots/7.12-HR-Desktop-Policy-Applied-to-HR-User.png)
 
 ---
 
