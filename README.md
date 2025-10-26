@@ -13,12 +13,16 @@ These projects simulate common Tier 1 / Tier 2 help-desk scenarios, focusing on 
 | [Lab 1](./lab1-network-share-setup) | **Network File Sharing Setup** | Build a local server-client LAN, create a shared folder, and manage user access. |
 | [Lab 2](./lab2-password-reset) | **Password Reset & Account Management** | Simulate a password-reset help-desk ticket using Windows tools. |
 | [Lab 3](./lab3-network-drive) | **Automated Network Drive Mapping** | Use PowerShell to map shared drives and verify permissions. |
+| [Lab 4](./lab4-active-directory-user-management) | **Active Directory User Management** | Create and manage user accounts, organizational units, security groups, and department-specific Group Policy Objects within a Windows domain environment. |
 
 ---
 
 ## 🧠 Skills Demonstrated
 - Windows Server / Client configuration  
-- User and group management  
+- Active Directory management  
+- Group Policy Object (GPO) creation and linking  
+- Organizational Unit (OU) design  
+- User and group permission configuration  
 - File-sharing and NTFS permissions  
 - Network troubleshooting  
 - PowerShell automation  
