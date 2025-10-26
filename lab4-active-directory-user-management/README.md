@@ -36,7 +36,7 @@ Created a top-level **OU named “Company”** under `lab.local` to hold all dep
 
 ### 7.2 — Create Departmental OUs
 Added departmental sub-OUs under “Company”: **IT**, **HR**, **Sales**, and **Finance**.  
-![7.2 Department OUs Created](./screenshots/7.2%20-%20Department%20OUs%20created%20under%20Company.png)
+![7.2 Department OUs Created](./screenshots/7.2%20Department%20OUs%20created%20under%20Company.png)
 
 ---
 
