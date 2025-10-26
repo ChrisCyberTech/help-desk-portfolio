@@ -138,4 +138,6 @@ This lab highlights **real-world Active Directory administration**, a core helpd
 
 ---
 
-## 📂 Folder Structure Example
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
