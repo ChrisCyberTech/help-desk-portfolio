@@ -115,12 +115,12 @@ An outdated proxy configuration from a previous VPN session continued intercepti
 
 8) Preventive Measures
 
-Disable proxy settings automatically on VPN disconnect.
+- Disable proxy settings automatically on VPN disconnect.
 
-Use network location profiles for “Home” vs. “Corporate” configurations.
+- Use network location profiles for “Home” vs. “Corporate” configurations.
 
-Regularly flush DNS after major network or VPN changes.
+- Regularly flush DNS after major network or VPN changes.
 
-Document proxy and DNS settings for troubleshooting repeat cases.
+- ocument proxy and DNS settings for troubleshooting repeat cases.
 
-Monitor outbound connectivity with periodic curl and ping tests.
+- Monitor outbound connectivity with periodic curl and ping tests.
