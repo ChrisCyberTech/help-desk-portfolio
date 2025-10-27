@@ -1,0 +1,28 @@
+Default route:
+   route to: default
+destination: default
+       mask: default
+  interface: utun4
+      flags: <UP,DONE,CLONING,STATIC,GLOBAL>
+ recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+       0         0         0         0         0         0      1420         0 
+
+Ping google.com:
+PING google.com (192.0.0.88): 56 data bytes
+64 bytes from 192.0.0.88: icmp_seq=0 ttl=64 time=16.262 ms
+64 bytes from 192.0.0.88: icmp_seq=1 ttl=64 time=20.758 ms
+64 bytes from 192.0.0.88: icmp_seq=2 ttl=64 time=18.574 ms
+64 bytes from 192.0.0.88: icmp_seq=3 ttl=64 time=24.930 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 16.262/20.131/24.930/3.194 ms
+
+Traceroute to 8.8.8.8:
+ 1  10.5.0.1 (10.5.0.1)  15.895 ms  18.492 ms  22.116 ms
+ 2  * * *
+ 3  77.247.126.0 (77.247.126.0)  17.359 ms  34.379 ms  19.641 ms
+ 4  ip4.gtt.net (209.120.144.54)  19.017 ms  21.520 ms  21.239 ms
+ 5  72.14.205.52 (72.14.205.52)  16.150 ms  18.593 ms  40.935 ms
+ 6  * * *
+ 7  dns.google (8.8.8.8)  64.769 ms  25.293 ms  46.193 ms

@@ -1,0 +1,11 @@
+openssl s_client to example.com:443 (SNI=example.com)
+Connecting to 23.215.0.138
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=US, ST=California, L=Los Angeles, O=Internet Corporation for Assigned Names and Numbers, CN=*.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification: OK
+Peer Temp Key: X25519, 253 bits
+DONE

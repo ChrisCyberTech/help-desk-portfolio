@@ -1,0 +1,24 @@
+scutil --proxy
+<dictionary> {
+  FTPPassive : 1
+}
+
+Env proxies:
+
+Network services:
+An asterisk (*) denotes that a network service is disabled.
+USB 10/100/1000 LAN
+Wi-Fi
+Thunderbolt Bridge
+iPhone USB
+NordVPN NordLynx
+
+Wi-Fi web/secure proxy:
+Enabled: Yes
+Server: 127.0.0.1
+Port: 8080
+Authenticated Proxy Enabled: 0
+Enabled: No
+Server: 
+Port: 0
+Authenticated Proxy Enabled: 0
