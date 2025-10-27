@@ -1,0 +1,159 @@
+{"app_name":"MTLAssetUpgraderD","timestamp":"2025-10-26 01:11:28.00 -0700","app_version":"","slice_uuid":"77cab15e-2599-3473-8e8e-d5aba78e077a","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"macOS 14.6.1 (23G93)","roots_installed":0,"incident_id":"BB61ADDD-6DA8-41DE-A314-697DD4B1DA54","name":"MTLAssetUpgraderD"}
+{
+  "uptime" : 100000,
+  "procRole" : "Unspecified",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "MacBookPro18,3",
+  "coalitionID" : 557,
+  "osVersion" : {
+    "train" : "macOS 14.6.1",
+    "build" : "23G93",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2025-10-26 01:11:25.6780 -0700",
+  "codeSigningMonitor" : 1,
+  "incident" : "BB61ADDD-6DA8-41DE-A314-697DD4B1DA54",
+  "pid" : 37934,
+  "translated" : false,
+  "cpuType" : "ARM-64",
+  "roots_installed" : 0,
+  "bug_type" : "309",
+  "procLaunch" : "2025-10-26 01:06:48.0631 -0700",
+  "procStartAbsTime" : 2585360395684,
+  "procExitAbsTime" : 2592022762666,
+  "procName" : "MTLAssetUpgraderD",
+  "procPath" : "\/usr\/libexec\/MTLAssetUpgraderD",
+  "parentProc" : "launchd",
+  "parentPid" : 1,
+  "coalitionName" : "com.apple.MTLAssetUpgraderD",
+  "crashReporterKey" : "E18B00E4-6920-32D5-EC7E-23AAD7AE5B3B",
+  "throttleTimeout" : 10,
+  "codeSigningID" : "com.apple.MTLAssetUpgraderD",
+  "codeSigningTeamID" : "",
+  "codeSigningFlags" : 570522385,
+  "codeSigningValidationCategory" : 1,
+  "codeSigningTrustLevel" : 4294967295,
+  "instructionByteStream" : {"beforePC":"6SQAlPIkAJR\/IwPV+F+8qfZXAan0TwKp\/XsDqf3DAJHzAwKq9AMBqg==","atPC":"FRhA+fUBALT2AwCqCRxA+T8FAPEAAgBUCACA0uoDFqoJAgC1SRFA+Q=="},
+  "wakeTime" : 13682,
+  "sleepWakeUUID" : "4C8201C6-7242-4A6D-9811-0098AF706415",
+  "sip" : "enabled",
+  "vmRegionInfo" : "0x30 is not in any region.  Bytes before following region: 4372119504\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      104994000-1049b4000    [  128K] r-x\/r-x SM=COW  \/usr\/libexec\/MTLAssetUpgraderD",
+  "exception" : {"codes":"0x0000000000000001, 0x0000000000000030","rawCodes":[1,48],"type":"EXC_BAD_ACCESS","signal":"SIGSEGV","subtype":"KERN_INVALID_ADDRESS at 0x0000000000000030"},
+  "termination" : {"flags":0,"code":11,"namespace":"SIGNAL","indicator":"Segmentation fault: 11","byProc":"exc handler","byPid":37934},
+  "vmregioninfo" : "0x30 is not in any region.  Bytes before following region: 4372119504\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      104994000-1049b4000    [  128K] r-x\/r-x SM=COW  \/usr\/libexec\/MTLAssetUpgraderD",
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "faultingThread" : 1,
+  "threads" : [{"id":1317604,"frames":[{"imageOffset":34116,"symbol":"__sigsuspend_nocancel","symbolLocation":8,"imageIndex":1},{"imageOffset":95636,"symbol":"_dispatch_sigsuspend","symbolLocation":48,"imageIndex":2},{"imageOffset":95588,"symbol":"_dispatch_sig_thread","symbolLocation":60,"imageIndex":2}],"threadState":{"x":[{"value":4},{"value":0},{"value":0},{"value":6095892416},{"value":6095892544},{"value":419432703},{"value":0},{"value":0},{"value":6095892416},{"value":6095892416},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":410},{"value":8538711936},{"value":0},{"value":6711119648,"symbolLocation":0,"symbol":"_dispatch_sigsuspend.mask"},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":6710953364},"cpsr":{"value":536875008},"fp":{"value":6095892384},"sp":{"value":6095892368},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":6712411460},"far":{"value":0}}},{"triggered":true,"id":1321676,"threadState":{"x":[{"value":0},{"value":6097035752},{"value":6097035744},{"value":0},{"value":5693930432},{"value":5693929904},{"value":6},{"value":303},{"value":0},{"value":1},{"value":153379693},{"value":5},{"value":5693909664},{"value":0},{"value":6885445589,"symbolLocation":45,"symbol":"_OBJC_$_INSTANCE_METHODS__MTLObjectWithLabel"},{"value":8462210864,"symbolLocation":0,"symbol":"OBJC_CLASS_$__MTLObjectWithLabel"},{"value":1328702634273728428,"symbolLocation":1328702627562651648,"symbol":"dispatch_data_create_map"},{"value":8630802096},{"value":0},{"value":6097035744},{"value":6097035752},{"value":5693930328},{"value":0},{"value":5693930328},{"value":5694889016},{"value":4372235138},{"value":6097036384},{"value":6094764336},{"value":6094764344}],"flavor":"ARM_THREAD_STATE64","lr":{"value":6500101645320956800},"cpsr":{"value":1610616832},"fp":{"value":6097033808},"sp":{"value":6097033760},"esr":{"value":2449473542,"description":"(Data Abort) byte read Translation fault"},"pc":{"value":6711076812,"matchesCrashFrame":1},"far":{"value":48}},"queue":"com.apple.xpc.activity.com.apple.MTLAssetUpgraderD.recompilationActivity","frames":[{"imageOffset":219084,"symbol":"dispatch_data_create_map","symbolLocation":32,"imageIndex":2},{"imageOffset":2358144,"symbol":"AGX::DynamicLibrary<AGX::G13::Encoders, AGX::G13::Classes, AGX::G13::ObjClasses, void>::initialize(AGX::G13::Device&, NSObject<OS_dispatch_data>*, char const*)","symbolLocation":88,"imageIndex":4},{"imageOffset":2361228,"symbol":"-[AGXG13XFamilyDynamicLibrary initWithURL:device:options:error:]","symbolLocation":524,"imageIndex":4},{"imageOffset":43696,"symbol":"MTLAssetUpgraderD::recompileSingleStep()","symbolLocation":2712,"imageIndex":0},{"imageOffset":48300,"symbol":"invocation function for block in MTLAssetUpgraderD::kickRecompilationActivity()","symbolLocation":116,"imageIndex":0},{"imageOffset":80120,"symbol":"__XPC_ACTIVITY_CALLING_HANDLER__","symbolLocation":264,"imageIndex":5},{"imageOffset":226716,"symbol":"_xpc_activity_set_state_from_cts","symbolLocation":336,"imageIndex":5},{"imageOffset":226340,"symbol":"___xpc_activity_set_state_with_completion_status_block_invoke.153","symbolLocation":64,"imageIndex":5},{"imageOffset":67428,"symbol":"_xpc_connection_reply_callout","symbolLocation":116,"imageIndex":5},{"imageOffset":67164,"symbol":"_xpc_connection_call_reply_async","symbolLocation":80,"imageIndex":5},{"imageOffset":17512,"symbol":"_dispatch_client_callout3","symbolLocation":20,"imageIndex":2},{"imageOffset":139208,"symbol":"_dispatch_mach_msg_async_reply_invoke","symbolLocation":344,"imageIndex":2},{"imageOffset":47256,"symbol":"_dispatch_lane_serial_drain","symbolLocation":368,"imageIndex":2},{"imageOffset":50500,"symbol":"_dispatch_lane_invoke","symbolLocation":380,"imageIndex":2},{"imageOffset":94928,"symbol":"_dispatch_root_queue_drain_deferred_wlh","symbolLocation":288,"imageIndex":2},{"imageOffset":92996,"symbol":"_dispatch_workloop_worker_thread","symbolLocation":404,"imageIndex":2},{"imageOffset":12300,"symbol":"_pthread_wqthread","symbolLocation":288,"imageIndex":6},{"imageOffset":7464,"symbol":"start_wqthread","symbolLocation":8,"imageIndex":6}]},{"id":1322740,"frames":[{"imageOffset":7456,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":6}],"threadState":{"x":[{"value":6095319040},{"value":8459},{"value":6094782464},{"value":0},{"value":409602},{"value":18446744073709551615},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":0},"cpsr":{"value":4096},"fp":{"value":0},"sp":{"value":6095319040},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":6712626464},"far":{"value":0}}}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 4372119552,
+    "size" : 131072,
+    "uuid" : "77cab15e-2599-3473-8e8e-d5aba78e077a",
+    "path" : "\/usr\/libexec\/MTLAssetUpgraderD",
+    "name" : "MTLAssetUpgraderD"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6712377344,
+    "size" : 241660,
+    "uuid" : "71ff45b8-f14e-3666-9e96-6cf58315b91d",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6710857728,
+    "size" : 294912,
+    "uuid" : "1a1ce00a-89cd-36ba-9678-5038aedd0d8d",
+    "path" : "\/usr\/lib\/system\/libdispatch.dylib",
+    "name" : "libdispatch.dylib"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 8139419648,
+    "CFBundleShortVersionString" : "282.14",
+    "CFBundleIdentifier" : "com.apple.AGXMetalG13X",
+    "size" : 7352320,
+    "uuid" : "4dc02423-4937-3bbb-845a-32a6405b97e5",
+    "path" : "\/System\/Library\/Extensions\/AGXMetalG13X.bundle\/Contents\/MacOS\/AGXMetalG13X",
+    "name" : "AGXMetalG13X",
+    "CFBundleVersion" : "282.14"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6709493760,
+    "size" : 307200,
+    "uuid" : "987af6aa-ab54-39ce-84cf-c6d2d1dc9464",
+    "path" : "\/usr\/lib\/system\/libxpc.dylib",
+    "name" : "libxpc.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6712619008,
+    "size" : 53248,
+    "uuid" : "e03e8478-6f5c-3d21-a79a-58408f514000",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6883893248,
+    "CFBundleShortVersionString" : "343.21",
+    "CFBundleIdentifier" : "com.apple.Metal",
+    "size" : 2277376,
+    "uuid" : "5e0ffdf8-e2da-3e6f-b6ce-82bdd502c20e",
+    "path" : "\/System\/Library\/Frameworks\/Metal.framework\/Versions\/A\/Metal",
+    "name" : "Metal",
+    "CFBundleVersion" : "343.21"
+  }
+],
+  "sharedCache" : {
+  "base" : 6708150272,
+  "size" : 4214358016,
+  "uuid" : "bb3df3d3-38bd-304c-9233-e43de95f1903"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=902.2M resident=0K(0%) swapped_out_or_unallocated=902.2M(100%)\nWritable regions: Total=212.0M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=212.0M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nDispatch continuations            64.0M        1 \nKernel Alloc Once                   32K        1 \nMALLOC                           146.1M       11 \nMALLOC guard page                   96K        6 \nSTACK GUARD                         48K        3 \nStack                             1664K        4 \nStack Guard                       64.0M        2 \nVM_ALLOCATE                         16K        1 \n__AUTH                            1239K      240 \n__AUTH_CONST                      18.0M      408 \n__CTF                               824        1 \n__DATA                            4375K      394 \n__DATA_CONST                      20.9M      414 \n__DATA_DIRTY                      1024K      137 \n__FONT_DATA                          4K        1 \n__LINKEDIT                       525.3M        2 \n__OBJC_RO                         71.9M        1 \n__OBJC_RW                         2200K        1 \n__TEXT                           376.9M      426 \ndyld private memory                272K        1 \nmapped file                       42.5M        8 \nshared memory                      624K        7 \n===========                     =======  ======= \nTOTAL                              1.3G     2071 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.xpc.activity.com.apple.MTLAssetUpgraderD.recompilationActivity"
+  }
+},
+  "logWritingSignature" : "109a7179945b4e6e81ab817a52c888c36b264aa0",
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "648c94d4ebdf9e3e398fa708",
+      "factorPackIds" : {
+        "SIRI_UNDERSTANDING_NL_OVERRIDES" : "65a8104b6712a43e7922cab8"
+      },
+      "deploymentId" : 240000171
+    },
+    {
+      "rolloutId" : "60da5e84ab0ca017dace9abf",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000008
+    }
+  ],
+  "experiments" : [
+
+  ]
+}
+}

@@ -1,0 +1,16 @@
+### Process Snapshot
+  PID COMM              %CPU %MEM
+    1 /sbin/launchd      0.0  0.1
+  111 /usr/libexec/log   0.4  0.2
+  113 /usr/libexec/Use   0.0  0.0
+  115 /System/Library/   0.0  0.0
+  116 /System/Library/   0.0  0.0
+  117 /System/Library/   0.0  0.1
+  120 /usr/sbin/system   0.0  0.1
+  123 /usr/libexec/con   0.0  0.1
+  125 /System/Library/   0.0  0.1
+  126 /usr/libexec/IOM   0.0  0.0
+  131 /usr/libexec/rem   0.0  0.0
+  136 /usr/libexec/wat   0.0  0.0
+  140 /System/Library/   0.6  0.1
+  142 /usr/libexec/ker   0.0  0.0

@@ -1,0 +1,18 @@
+### System Info
+Darwin MacBook-Pro.local 23.6.0 Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
+ProductName:		macOS
+ProductVersion:		14.6.1
+BuildVersion:		23G93
+
+### Disk Usage
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi   9.6Gi    76Gi    12%    404k  799M    0%   /
+devfs            198Ki   198Ki     0Bi   100%     686     0  100%   /dev
+/dev/disk3s6     460Gi   3.0Gi    76Gi     4%       3  799M    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi   5.7Gi    76Gi     7%    1.1k  799M    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   2.1Mi    76Gi     1%      50  799M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.2Mi   481Mi     2%      27  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   2.1Mi   481Mi     1%      55  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi   365Gi    76Gi    83%    1.4M  799M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home

@@ -1,0 +1,106 @@
+### DiagnosticReports (last 3)
+total 120
+-rw-------@ 1 luismejia  _analyticsusers  12119 Oct 26 13:07 MTLAssetUpgraderD-2025-10-26-130739.ips
+-rw-------@ 1 luismejia  _analyticsusers  12692 Oct 26 01:11 MTLAssetUpgraderD-2025-10-26-011141.ips
+
+### Log entries mentioning 'crash' or 'launchservices'
+)}>
+2025-10-27 13:05:20.127857-0700 0x1ce0a8   Default     0x2a74f5             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Process: [app<application.com.google.Chrome.7557372.33737472(501)>:529]: Sending inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+)} lost:{(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78597 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78596 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78596 0>
+)}>
+2025-10-27 13:05:23.235756-0700 0x1ce0a9   Default     0x2a7540             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Acquiring assertion targeting [app<application.com.google.Chrome.7557372.33737472(501)>:529] from originator [osservice<com.apple.coreservices.launchservicesd>:153] with description <RBSAssertionDescriptor| "frontmost:529" ID:186-153-78604 target:529 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.launchservicesd" name:"RoleUserInteractiveFocal" sourceEnvironment:"(null)">
+	]>
+2025-10-27 13:05:23.236284-0700 0x1cdec5   Default     0x2a7542             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Invalidating assertion 186-153-78600 (target:[app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010]) from originator [osservice<com.apple.coreservices.launchservicesd>:153]
+2025-10-27 13:05:23.236426-0700 0x1cdec5   Default     0x2a7543             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Acquiring assertion targeting [app<application.com.google.Chrome.7557372.33737472(501)>:529] from originator [osservice<com.apple.coreservices.launchservicesd>:153] with description <RBSAssertionDescriptor| "notification:529" ID:186-153-78605 target:529 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.launchservicesd" name:"LSNotification" sourceEnvironment:"(null)">
+	]>
+2025-10-27 13:05:23.237422-0700 0x1cdec5   Default     0x2a7545             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Invalidating assertion 186-153-78598 (target:[app<application.com.google.Chrome.7557372.33737472(501)>:529]) from originator [osservice<com.apple.coreservices.launchservicesd>:153]
+2025-10-27 13:05:23.237516-0700 0x1cde26   Default     0x2a7540             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Queued gained inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)}
+2025-10-27 13:05:23.237547-0700 0x1cde26   Default     0x2a7540             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)} lost:{(
+)}>
+2025-10-27 13:05:23.237570-0700 0x1cde26   Default     0x2a7540             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Process: [app<application.com.google.Chrome.7557372.33737472(501)>:529]: Sending inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)} lost:{(
+)}>
+2025-10-27 13:05:23.237925-0700 0x1ce1db   Default     0x2a728a             529    0    Google Chrome: (RunningBoardServices) [com.apple.runningboard:connection] Gained inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)}
+2025-10-27 13:05:23.269037-0700 0x1ce1de   Error       0x0                  504    0    ContextStoreAgent: (CoreDuet) Simulating crash. Reason: <private>
+2025-10-27 13:05:23.269080-0700 0x1ce1de   Error       0x0                  504    0    ContextStoreAgent: (CoreDuet) Simulating crash. Reason: <private>
+2025-10-27 13:05:23.341656-0700 0x1cde26   Default     0x2a754a             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Queued lost inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>,
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78601 0>
+)}
+2025-10-27 13:05:23.341692-0700 0x1cde26   Default     0x2a754a             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+)} lost:{(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78601 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>
+)}>
+2025-10-27 13:05:23.341722-0700 0x1cde26   Default     0x2a754a             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Process: [app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010]: Sending inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+)} lost:{(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78601 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78600 0>
+)}>
+2025-10-27 13:05:24.970875-0700 0x1cde26   Default     0x2a754e             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Acquiring assertion targeting [app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010] from originator [osservice<com.apple.coreservices.launchservicesd>:153] with description <RBSAssertionDescriptor| "frontmost:14010" ID:186-153-78608 target:14010 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.launchservicesd" name:"RoleUserInteractiveFocal" sourceEnvironment:"(null)">
+	]>
+2025-10-27 13:05:24.973901-0700 0x1ce0a9   Default     0x2a754e             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Queued gained inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78609 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>
+)}
+2025-10-27 13:05:24.974042-0700 0x1cde26   Default     0x2a7572             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Invalidating assertion 186-153-78604 (target:[app<application.com.google.Chrome.7557372.33737472(501)>:529]) from originator [osservice<com.apple.coreservices.launchservicesd>:153]
+2025-10-27 13:05:24.974084-0700 0x1ce0a9   Default     0x2a754f             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>
+)} lost:{(
+)}>
+2025-10-27 13:05:24.974094-0700 0x1ce0a9   Default     0x2a754f             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Process: [app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010]: Sending inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>
+)} lost:{(
+)}>
+2025-10-27 13:05:24.974347-0700 0x1ce2e4   Default     0x2a73fb             14010  0    Terminal: (RunningBoardServices) [com.apple.runningboard:connection] Gained inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78608 0>
+)}
+2025-10-27 13:05:24.974508-0700 0x1cde26   Default     0x2a7574             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Acquiring assertion targeting [app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010] from originator [osservice<com.apple.coreservices.launchservicesd>:153] with description <RBSAssertionDescriptor| "notification:14010" ID:186-153-78610 target:14010 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.launchservicesd" name:"LSNotification" sourceEnvironment:"(null)">
+	]>
+2025-10-27 13:05:24.974869-0700 0x1cde26   Default     0x2a7576             186    7    runningboardd: (RunningBoard) [com.apple.runningboard:ttl] Invalidating assertion 186-153-78602 (target:[app<application.com.apple.Terminal.1152921500311913340.1152921500311913345(501)>:14010]) from originator [osservice<com.apple.coreservices.launchservicesd>:153]
+2025-10-27 13:05:25.013324-0700 0x1ce1de   Error       0x0                  504    0    ContextStoreAgent: (CoreDuet) Simulating crash. Reason: <private>
+2025-10-27 13:05:25.013359-0700 0x1ce1de   Error       0x0                  504    0    ContextStoreAgent: (CoreDuet) Simulating crash. Reason: <private>
+2025-10-27 13:05:25.081167-0700 0x1ce0a9   Default     0x2a7578             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Queued lost inheritances: {(
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78606 0>
+)}
+2025-10-27 13:05:25.081241-0700 0x1ce0a9   Default     0x2a7578             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+)} lost:{(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78606 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)}>
+2025-10-27 13:05:25.081273-0700 0x1ce0a9   Default     0x2a7578             186    0    runningboardd: (RunningBoard) [com.apple.runningboard:connection] Process: [app<application.com.google.Chrome.7557372.33737472(501)>:529]: Sending inheritance changeset: <RBSInheritanceChangeSet| gained:{(
+)} lost:{(
+    <RBSInheritance| environment:(none) name:com.apple.frontboard.visibility origID:186-179-78606 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>,
+    <RBSInheritance| environment:(none) name:com.apple.launchservices.userfacing origID:186-153-78604 0>
+)}>
+2025-10-27 13:05:26.023205-0700 0x1ce23f   Default     0x0                  1      0    launchd: [system/com.apple.ReportCrash.Root [54101]:] Successfully spawned ReportCrash[54101] because ipc (mach)
+2025-10-27 13:05:26.039898-0700 0x1ce3e2   Default     0x0                  54101  0    ReportCrash: ReportCrash (unified) launched in daemon mode

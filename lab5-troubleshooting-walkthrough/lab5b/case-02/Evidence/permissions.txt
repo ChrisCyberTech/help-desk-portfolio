@@ -1,0 +1,5 @@
+### Applications folder permissions
+drwxrwxr-x  60 root  admin  1920 Oct 26 01:10 /Applications
+
+### App bundle permissions (replace Example.app if known)
+App placeholder not present.
