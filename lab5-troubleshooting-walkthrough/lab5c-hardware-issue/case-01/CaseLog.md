@@ -46,7 +46,7 @@ Files generated:
 ## 5) Remediation Steps
 1. **Repair the disk structure**
    ```bash
-   diskutil repairVolume /
+   diskutil repairVolume / ```
 2. Check SMART status again
 
 - diskutil info disk0 | grep SMART
