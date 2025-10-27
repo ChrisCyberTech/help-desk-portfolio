@@ -95,20 +95,20 @@ Gatekeeper	Blocked	Verified	Quarantine removed
 
 ---
 
-6) Verification
+## 6) Verification
 
 - After applying permission and preference resets, the application launched successfully.
 verify-launch.sh confirmed a persistent process, no new crash reports, and normal CPU/memory activity.
 
 ---
 
-7) Root Cause
+## 7) Root Cause
 
 - macOS Gatekeeper quarantine attribute and corrupted user preference file prevented the application from executing normally.
 
 ---
 
-8) Preventive Measures
+## 8) Preventive Measures
 
 - Always move newly downloaded apps to /Applications before first launch.
 
