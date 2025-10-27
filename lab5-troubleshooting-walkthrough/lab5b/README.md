@@ -7,7 +7,7 @@ Each case documents a real-world scenario with evidence collection, analysis, re
 
 ## 📂 Folder Structure
 
-lab5b/
+lab5b/  
 ├── case-01/ → Chrome slow or hangs (CPU/RAM/Disk)  
 ├── case-02/ → App won’t launch (Crash / Permissions)  
 └── case-03/ → App can’t connect (DNS / Proxy / TLS)  
