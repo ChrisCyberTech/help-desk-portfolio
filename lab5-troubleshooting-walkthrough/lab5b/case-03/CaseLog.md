@@ -99,21 +99,20 @@ App Connectivity	Failed	Normal	App reconnects successfully
 
 ---
 
-6) Verification
-
+## 6) Verification
 - After running reset-proxy.sh and flush-dns.sh, connectivity was restored.
 verify-connectivity.sh https://api.example.com confirmed a 200 OK response and valid TLS handshake.
 The affected app connected normally on next launch without VPN.
 
 ---
 
-7) Root Cause
+## 7) Root Cause
 
 - An outdated proxy configuration from a previous VPN session continued intercepting HTTPS traffic, blocking the app’s outbound connection.
 
 ---
 
-8) Preventive Measures
+## 8) Preventive Measures
 
 - Disable proxy settings automatically on VPN disconnect.
 
