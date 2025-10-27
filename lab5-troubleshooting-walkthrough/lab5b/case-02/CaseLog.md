@@ -2,8 +2,8 @@
 
 ## 1) Environment
 - **OS:** macOS (captured via `systeminfo.txt`)
-- **Application:** ExampleApp (replace with app name if known)
-- **Version:** (if available)
+- **Application:** ExampleApp
+- **Version:** not available
 - **User Type:** Standard User
 - **Recent Changes:** App update or OS security patch prior to failure.
 
