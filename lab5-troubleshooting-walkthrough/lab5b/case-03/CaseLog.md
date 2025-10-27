@@ -57,19 +57,19 @@ Files generated:
 
 2. Flush DNS cache
 
-sudo dscacheutil -flushcache
+- sudo dscacheutil -flushcache
 sudo killall -HUP mDNSResponder
 
 
 3. Verify routing and DNS resolution
 
-nslookup api.example.com
+- nslookup api.example.com
 traceroute api.example.com
 
 
 4. Test HTTPS/TLS connectivity
 
-curl -v https://api.example.com
+- curl -v https://api.example.com
 echo | openssl s_client -connect api.example.com:443 -servername api.example.com
 
 
@@ -79,18 +79,18 @@ echo | openssl s_client -connect api.example.com:443 -servername api.example.com
 
 Script Simulations (Fixes Folder)
 
-These scripts automate each troubleshooting step for repeatability:
+- These scripts automate each troubleshooting step for repeatability:
 
- reset-proxy.sh — disables system/web proxies and clears environment proxy variables.
+- reset-proxy.sh — disables system/web proxies and clears environment proxy variables.
 Expected Result: Proxy settings fully cleared; network traffic routed directly.
 
- flush-dns.sh — flushes DNS cache and restarts resolver service.
+- flush-dns.sh — flushes DNS cache and restarts resolver service.
 Expected Result: Old resolver entries cleared; new DNS resolution succeeds.
 
- verify-connectivity.sh — runs curl and openssl checks to confirm endpoint connectivity and TLS handshake.
+- verify-connectivity.sh — runs curl and openssl checks to confirm endpoint connectivity and TLS handshake.
 Expected Result: HTTP 200/3xx success response; valid certificate chain.
 
-Verification Metric	Before Fix	After Fix	Notes
+- Verification Metric	Before Fix	After Fix	Notes
 DNS Resolution	Fails	Successful	Domain resolves to valid IP
 Proxy State	Enabled	Disabled	Cleared via script
 curl Result	Timeout / 407	HTTP 200	Endpoint reachable
@@ -101,7 +101,7 @@ App Connectivity	Failed	Normal	App reconnects successfully
 
 6) Verification
 
-After running reset-proxy.sh and flush-dns.sh, connectivity was restored.
+- After running reset-proxy.sh and flush-dns.sh, connectivity was restored.
 verify-connectivity.sh https://api.example.com confirmed a 200 OK response and valid TLS handshake.
 The affected app connected normally on next launch without VPN.
 
@@ -109,7 +109,7 @@ The affected app connected normally on next launch without VPN.
 
 7) Root Cause
 
-An outdated proxy configuration from a previous VPN session continued intercepting HTTPS traffic, blocking the app’s outbound connection.
+- An outdated proxy configuration from a previous VPN session continued intercepting HTTPS traffic, blocking the app’s outbound connection.
 
 ---
 
