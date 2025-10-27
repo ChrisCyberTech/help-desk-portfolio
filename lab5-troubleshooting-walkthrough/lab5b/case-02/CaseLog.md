@@ -54,38 +54,40 @@ Additional evidence:
    open ~/Library/Logs/DiagnosticReports/
 2. Removed quarantine attribute:
 
-xattr -dr com.apple.quarantine "/Applications/ExampleApp.app"
+- xattr -dr com.apple.quarantine "/Applications/ExampleApp.app"
 
 
 3. Repaired app ownership and permissions:
 
-sudo chown -R $(whoami):staff "/Applications/ExampleApp.app"
+- sudo chown -R $(whoami):staff "/Applications/ExampleApp.app"
 sudo chmod -R a+rX "/Applications/ExampleApp.app"
 
 
 4. Cleared corrupted preference file:
 
-rm -f ~/Library/Preferences/com.vendor.ExampleApp.plist
+- rm -f ~/Library/Preferences/com.vendor.ExampleApp.plist
 
 
 5. Relaunched the app from Terminal to verify startup output:
 
-/Applications/ExampleApp.app/Contents/MacOS/ExampleApp
+- /Applications/ExampleApp.app/Contents/MacOS/ExampleApp
+
+---
 
 Script Simulations (Fixes Folder)
 
 The following scripts represent automated versions of the manual troubleshooting steps above:
 
- reset-permissions.sh — repairs ownership and removes macOS quarantine attributes that can prevent execution.
+- reset-permissions.sh — repairs ownership and removes macOS quarantine attributes that can prevent execution.
 Expected Result: App now allowed to launch by Gatekeeper.
 
- clear-preferences.sh — deletes potentially corrupted preference files and cache directories.
+- clear-preferences.sh — deletes potentially corrupted preference files and cache directories.
 Expected Result: Clean configuration; app no longer crashes on startup.
 
- verify-launch.sh — attempts to launch the app and checks process persistence and related logs.
+- verify-launch.sh — attempts to launch the app and checks process persistence and related logs.
 Expected Result: App process remains active; no new crash logs generated.
 
-Verification Metric	Before Fix	After Fix	Notes
+- Verification Metric	Before Fix	After Fix	Notes
 Launch Success	Failed	Successful	App window opens normally
 Crash Logs	Present	None	DiagnosticReports empty
 Ownership	root:wheel	user:staff	Permission corrected
@@ -95,25 +97,25 @@ Gatekeeper	Blocked	Verified	Quarantine removed
 
 6) Verification
 
-After applying permission and preference resets, the application launched successfully.
+- After applying permission and preference resets, the application launched successfully.
 verify-launch.sh confirmed a persistent process, no new crash reports, and normal CPU/memory activity.
 
 ---
 
 7) Root Cause
 
-macOS Gatekeeper quarantine attribute and corrupted user preference file prevented the application from executing normally.
+- macOS Gatekeeper quarantine attribute and corrupted user preference file prevented the application from executing normally.
 
 ---
 
 8) Preventive Measures
 
-Always move newly downloaded apps to /Applications before first launch.
+- Always move newly downloaded apps to /Applications before first launch.
 
-Run applications under user ownership, not root.
+- Run applications under user ownership, not root.
 
-Regularly clear old or corrupted preferences in ~/Library/Preferences.
+- Regularly clear old or corrupted preferences in ~/Library/Preferences.
 
-Install software updates directly from verified vendors or the App Store.
+- Install software updates directly from verified vendors or the App Store.
 
-Keep a backup of working configuration files to restore quickly if future corruption occurs.
+- Keep a backup of working configuration files to restore quickly if future corruption occurs.
