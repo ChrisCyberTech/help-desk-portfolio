@@ -39,7 +39,7 @@ Files generated:
 3. Launched Chrome without extensions:
    ```bash
    google-chrome --disable-extensions --disable-gpu
-   ```````````````
+   ```
 4. Created a new Chrome profile (Default_old → new Default).
 5. Disabled hardware acceleration in Chrome settings.
 6. Verified improvement after relaunch.
