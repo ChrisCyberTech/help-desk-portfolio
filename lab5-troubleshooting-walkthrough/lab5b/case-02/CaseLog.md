@@ -78,16 +78,16 @@ Script Simulations (Fixes Folder)
 
 The following scripts represent automated versions of the manual troubleshooting steps above:
 
-- reset-permissions.sh — repairs ownership and removes macOS quarantine attributes that can prevent execution.
+- [x]reset-permissions.sh — repairs ownership and removes macOS quarantine attributes that can prevent execution.
 Expected Result: App now allowed to launch by Gatekeeper.
 
-- clear-preferences.sh — deletes potentially corrupted preference files and cache directories.
+- [x]clear-preferences.sh — deletes potentially corrupted preference files and cache directories.
 Expected Result: Clean configuration; app no longer crashes on startup.
 
-- verify-launch.sh — attempts to launch the app and checks process persistence and related logs.
+- [x]verify-launch.sh — attempts to launch the app and checks process persistence and related logs.
 Expected Result: App process remains active; no new crash logs generated.
 
-- Verification Metric	Before Fix	After Fix	Notes
+- [x]Verification Metric	Before Fix	After Fix	Notes
 Launch Success	Failed	Successful	App window opens normally
 Crash Logs	Present	None	DiagnosticReports empty
 Ownership	root:wheel	user:staff	Permission corrected
