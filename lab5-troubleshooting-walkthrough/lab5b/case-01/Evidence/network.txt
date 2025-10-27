@@ -1,0 +1,19 @@
+### DNS & Connectivity
+Server:		100.64.0.2
+Address:	100.64.0.2#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 192.0.0.88
+
+
+### Ping Test
+PING google.com (192.0.0.88): 56 data bytes
+64 bytes from 192.0.0.88: icmp_seq=0 ttl=64 time=34.911 ms
+64 bytes from 192.0.0.88: icmp_seq=1 ttl=64 time=20.014 ms
+64 bytes from 192.0.0.88: icmp_seq=2 ttl=64 time=21.223 ms
+64 bytes from 192.0.0.88: icmp_seq=3 ttl=64 time=20.057 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 20.014/24.051/34.911/6.289 ms

@@ -1,0 +1,2 @@
+Collecting Chrome slowness evidence @ 2025-10-26_18-34-00
+Evidence collection complete @ Sun Oct 26 18:34:11 PDT 2025

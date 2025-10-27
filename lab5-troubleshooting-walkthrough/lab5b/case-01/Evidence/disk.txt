@@ -1,0 +1,15 @@
+### Disk Usage
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi   9.6Gi    73Gi    12%    404k  762M    0%   /
+devfs            198Ki   198Ki     0Bi   100%     686     0  100%   /dev
+/dev/disk3s6     460Gi   7.0Gi    73Gi     9%       7  762M    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi   5.7Gi    73Gi     8%    1.1k  762M    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   3.0Mi    73Gi     1%      50  762M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.2Mi   481Mi     2%      27  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   2.1Mi   481Mi     1%      55  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi   364Gi    73Gi    84%    1.4M  762M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+### Disk I/O (if iostat available)
+iostat not installed

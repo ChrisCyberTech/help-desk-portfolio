@@ -1,0 +1,3 @@
+### Chrome-related Logs (past 2h)
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2025-10-26 17:00:02.025780-0700 0x19aa67   Default     0x0                  570    0    chrome_crashpad_handler: (CoreAnalytics) [com.apple.CoreAnalytics:client] Received configuration update from daemon (change)
