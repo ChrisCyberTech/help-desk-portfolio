@@ -77,17 +77,17 @@ echo | openssl s_client -connect api.example.com:443 -servername api.example.com
 
 ---
 
-Script Simulations (Fixes Folder)
+### Script Simulations (Fixes Folder)
 
-- These scripts automate each troubleshooting step for repeatability:
+These scripts automate each troubleshooting step for repeatability:
 
-- reset-proxy.sh — disables system/web proxies and clears environment proxy variables.
+- [x] **reset-proxy.sh** — disables system/web proxies and clears environment proxy variables.
 Expected Result: Proxy settings fully cleared; network traffic routed directly.
 
-- flush-dns.sh — flushes DNS cache and restarts resolver service.
+- [x] **flush-dns.sh** — flushes DNS cache and restarts resolver service.
 Expected Result: Old resolver entries cleared; new DNS resolution succeeds.
 
-- verify-connectivity.sh — runs curl and openssl checks to confirm endpoint connectivity and TLS handshake.
+- [x] **verify-connectivity.sh** — runs curl and openssl checks to confirm endpoint connectivity and TLS handshake.
 Expected Result: HTTP 200/3xx success response; valid certificate chain.
 
 - Verification Metric	Before Fix	After Fix	Notes
