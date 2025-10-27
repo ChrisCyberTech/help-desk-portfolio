@@ -8,12 +8,10 @@ Each case documents a real-world scenario with evidence collection, analysis, re
 ## 📂 Folder Structure
 
 lab5b/
-├── case-01/ → Chrome slow or hangs (CPU/RAM/Disk)
-├── case-02/ → App won’t launch (Crash / Permissions)
-└── case-03/ → App can’t connect (DNS / Proxy / TLS)
+├── case-01/ → Chrome slow or hangs (CPU/RAM/Disk)  
+├── case-02/ → App won’t launch (Crash / Permissions)  
+└── case-03/ → App can’t connect (DNS / Proxy / TLS)  
 
-markdown
-Copy code
 
 Each case folder includes:
 - **CaseLog.md** – documentation of the issue, evidence, analysis, and fixes  
@@ -61,6 +59,5 @@ Each case folder includes:
 
 ---
 
-**Author:** Luis Mejia  
-**Course:** UCLA Extension – Fundamentals of Cybersecurity  
+**Author:** Luis Mejia   
 **Lab:** 5B – Software Troubleshooting
