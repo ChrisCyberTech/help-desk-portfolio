@@ -7,16 +7,12 @@
 - **User Type:** Standard User
 - **Recent Changes:** App update or OS security patch prior to failure.
 
----
-
 ## 2) Symptoms
 - User double-clicks the app icon — it flashes briefly, then closes.
 - No visible error message.
 - App process appears momentarily in Activity Monitor, then disappears.
 - Reinstallation did not resolve the issue.
 - No other apps appear affected.
-
----
 
 ## 3) Evidence (Collected)
 Evidence collected with `collect-evidence.sh` on **2025-10-27 13:15**  
@@ -36,16 +32,12 @@ Additional evidence:
 - `xattr` indicates `com.apple.quarantine` flag present.  
 - No disk or system resource issues detected.
 
----
-
 ## 4) Analysis
 **Likely Root Causes:**
 1. Corrupted preference or config files under `~/Library/Preferences`.  
 2. macOS Gatekeeper quarantine flag preventing execution.  
 3. Incorrect ownership or permission on the app bundle.  
 4. Outdated code signature after update.
-
----
 
 ## 5) Remediation Steps
 1. Checked system and crash logs:
@@ -72,8 +64,6 @@ sudo chmod -R a+rX "/Applications/ExampleApp.app"
 
 - /Applications/ExampleApp.app/Contents/MacOS/ExampleApp
 
----
-
 ### Script Simulations (Fixes Folder)
 
 The following scripts represent automated versions of the manual troubleshooting steps above:
@@ -93,20 +83,17 @@ Crash Logs	Present	None	DiagnosticReports empty
 Ownership	root:wheel	user:staff	Permission corrected
 Gatekeeper	Blocked	Verified	Quarantine removed
 
----
 
 ## 6) Verification
 
 - After applying permission and preference resets, the application launched successfully.
 verify-launch.sh confirmed a persistent process, no new crash reports, and normal CPU/memory activity.
 
----
 
 ## 7) Root Cause
 
 - macOS Gatekeeper quarantine attribute and corrupted user preference file prevented the application from executing normally.
 
----
 
 ## 8) Preventive Measures
 
@@ -119,3 +106,5 @@ verify-launch.sh confirmed a persistent process, no new crash reports, and norma
 - Install software updates directly from verified vendors or the App Store.
 
 - Keep a backup of working configuration files to restore quickly if future corruption occurs.
+
+---
