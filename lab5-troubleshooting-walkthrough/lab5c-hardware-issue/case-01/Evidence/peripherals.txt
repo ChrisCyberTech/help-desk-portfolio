@@ -1,0 +1,197 @@
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+Thunderbolt/USB4:
+
+    Thunderbolt/USB4 Bus 2:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x05AC54CA642B5732
+      Route String: 0
+      Domain UUID: 1AD3379E-DECA-4A0A-811E-62E26881D738
+      Port:
+          Status: No device connected
+          Link Status: 0x100
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 3
+
+    Thunderbolt/USB4 Bus 1:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x05AC54CA642B5731
+      Route String: 0
+      Domain UUID: FBABE32E-F059-4DA4-B6C2-6ACDB83C4BEF
+      Port:
+          Status: No device connected
+          Link Status: 0x100
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 2
+
+    Thunderbolt/USB4 Bus 0:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x05AC54CA642B5730
+      Route String: 0
+      Domain UUID: EEEDCB7A-8EF0-413E-9E6B-FAD299987CF1
+      Port:
+          Status: No device connected
+          Link Status: 0x100
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+
+Network:
+
+    Ethernet Adapter (en4):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en4
+      IPv4:
+          Configuration Method: DHCP
+      Ethernet:
+          MAC Address: 6e:78:22:01:12:42
+          Media Options: 
+          Media Subtype: none
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 0
+
+    Ethernet Adapter (en5):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en5
+      IPv4:
+          Configuration Method: DHCP
+      Ethernet:
+          MAC Address: 6e:78:22:01:12:43
+          Media Options: 
+          Media Subtype: none
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 1
+
+    Ethernet Adapter (en6):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en6
+      IPv4:
+          Configuration Method: DHCP
+      Ethernet:
+          MAC Address: 6e:78:22:01:12:44
+          Media Options: 
+          Media Subtype: none
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 2
+
+    USB 10/100/1000 LAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en7
+      IPv4:
+          Configuration Method: DHCP
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 3
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en0
+      IPv4 Addresses: 192.168.1.11
+      IPv4:
+          Additional Routes:
+              Destination Address: 192.168.1.11
+              Subnet Mask: 255.255.255.255
+              Destination Address: 169.254.0.0
+              Subnet Mask: 255.255.0.0
+          Addresses: 192.168.1.11
+          ARP Resolved Hardware Address: 08:36:c9:85:9a:0a
+          ARP Resolved IP Address: 192.168.1.1
+          Configuration Method: DHCP
+          Confirmed Interface Name: en0
+          Interface Name: en0
+          Network Signature: IPv4.Router=192.168.1.1;IPv4.RouterHardwareAddress=08:36:c9:85:9a:0a
+          Router: 192.168.1.1
+          Subnet Masks: 255.255.255.0
+      DNS:
+          Server Addresses: 192.168.1.1
+      DHCP Server Responses:
+          Domain Name Servers: 192.168.1.1
+          Lease Duration (seconds): 0
+          DHCP Message Type: 0x05
+          Routers: 192.168.1.1
+          Server Identifier: 192.168.1.1
+          Subnet Mask: 255.255.255.0
+      Ethernet:
+          MAC Address: c8:89:f3:e1:3a:96
+          Media Options: 
+          Media Subtype: Auto Select
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+          HTTP Proxy Enabled: Yes
+          HTTP Proxy Port: 8080
+          HTTP Proxy Server: 127.0.0.1
+      Service Order: 4
+
+    Thunderbolt Bridge:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: bridge0
+      IPv4:
+          Configuration Method: DHCP
+      IPv6:
+          Configuration Method: Automatic
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 5
+
+    iPhone:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en8
+      IPv4:
+          Configuration Method: DHCP
+      Proxies:
+          Exceptions List: *.local, 169.254/16
+          FTP Passive Mode: Yes
+      Service Order: 6
+
+    NordVPN NordLynx:
+
+      Type: VPN (com.nordvpn.NordVPN)
+      IPv4:
+          Configuration Method: VPN
+      IPv6:
+          Configuration Method: Automatic
+      Service Order: 7
+

@@ -1,0 +1,18 @@
+Darwin MacBook-Pro.local 23.6.0 Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro18,3
+      Model Number: MKGP3LL/A
+      Chip: Apple M1 Pro
+      Total Number of Cores: 8 (6 performance and 2 efficiency)
+      Memory: 16 GB
+      System Firmware Version: 10151.140.19
+      OS Loader Version: 10151.140.19
+      Serial Number (system): DL7W56YF2C
+      Hardware UUID: 9EBE05A3-37AC-5233-B9F5-2CE66BFB0B3C
+      Provisioning UDID: 00006000-0004791E22F9401E
+      Activation Lock Status: Enabled
+

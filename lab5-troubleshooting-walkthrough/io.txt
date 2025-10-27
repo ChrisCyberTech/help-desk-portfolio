@@ -1,0 +1,6 @@
+IOSTAT sample:
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   40.82   80  3.20  13  8 80  2.36 2.15 2.15
+   11.80  209  2.41  10  6 83  2.25 2.13 2.15
+    6.55    5  0.04  13  5 82  2.25 2.13 2.15
