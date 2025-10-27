@@ -87,7 +87,7 @@ Expected Result: Clean configuration; app no longer crashes on startup.
 - [x] **verify-launch.sh** — attempts to launch the app and checks process persistence and related logs.
 Expected Result: App process remains active; no new crash logs generated.
 
-- [x] **Verification Metric**	Before Fix	After Fix	Notes
+- Verification Metric	Before Fix	After Fix	Notes
 Launch Success	Failed	Successful	App window opens normally
 Crash Logs	Present	None	DiagnosticReports empty
 Ownership	root:wheel	user:staff	Permission corrected
