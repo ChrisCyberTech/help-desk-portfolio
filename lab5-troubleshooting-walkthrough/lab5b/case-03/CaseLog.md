@@ -46,6 +46,7 @@ Files generated:
    networksetup -setwebproxystate "Wi-Fi" off
    networksetup -setsecurewebproxystate "Wi-Fi" off
    unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
+   ```
 
 2. Flush DNS cache
 
