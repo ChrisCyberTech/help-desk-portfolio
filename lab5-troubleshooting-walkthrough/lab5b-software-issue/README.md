@@ -59,5 +59,6 @@ Each case folder includes:
 
 ---
 
-**Author:** Luis Mejia   
-**Lab:** 5B – Software Troubleshooting
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)

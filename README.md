@@ -38,4 +38,6 @@ Each lab replicates authentic troubleshooting workflows, designed to showcase **
 
 ---
 
-Created by **Luis Chris Mejia**  
+Created by **Luis Chris Mejia** 
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)

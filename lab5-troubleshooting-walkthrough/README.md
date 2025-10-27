@@ -53,3 +53,7 @@ Each lab simulates a realistic end-user support scenario, designed to demonstrat
 ✅ **Outcome:**  
 Lab 5 showcases **multi-domain troubleshooting proficiency** across network, software, and hardware layers.  
 Each sub-lab includes evidence collection scripts, fix automation, and a complete case log, reflecting real help desk workflows.
+
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)

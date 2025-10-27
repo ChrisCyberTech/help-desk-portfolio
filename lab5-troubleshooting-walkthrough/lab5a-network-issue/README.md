@@ -72,3 +72,7 @@ Status: Resolved Date Closed: 10/26/2025
 ---
 
 ✅ **Outcome:** Demonstrated full Tier 1/2 troubleshooting workflow — diagnosing and resolving network connectivity and permission issues in a Windows environment.
+
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)

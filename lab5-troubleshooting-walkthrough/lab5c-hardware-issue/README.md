@@ -76,3 +76,7 @@ This lab reinforced the value of **evidence-driven troubleshooting** and the imp
 By using repeatable scripts and structured documentation, hardware issues can be efficiently diagnosed, verified, and resolved with minimal downtime.
 
 ---
+
+**Author:** Luis Chris Mejia  
+*Date Completed: October 2025*  
+**Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
