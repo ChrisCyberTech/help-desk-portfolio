@@ -80,5 +80,4 @@ Each lab replicates **real-world Help Desk scenarios**, emphasizing **troublesho
 ---
 
 Created by **Luis Chris Mejia** 
-*Date Completed: October 2025*  
 **Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
