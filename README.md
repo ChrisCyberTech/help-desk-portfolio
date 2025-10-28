@@ -68,6 +68,7 @@ Each lab replicates **real-world Help Desk scenarios**, emphasizing **troublesho
 - Technical Writing & Troubleshooting Logs  
 
 ### 📚 Certifications (In Progress)  
+**UCLA Extension Cybersecurity Certificate (in progress)**
 - CompTIA **Network+** *(preparing)*  
 - CompTIA **Security+** *(next goal)*  
 
