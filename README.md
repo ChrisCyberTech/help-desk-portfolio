@@ -11,11 +11,11 @@ The portfolio demonstrates not only technical ability but also **structured docu
 
 | Lab # | Title | Description |
 |------|--------|-------------|
-| [ 1 ](./lab1-network-share-setup) | **Network File Sharing Setup** | Build a local server-client LAN, create a shared folder, and manage user access. |
-| [ 2 ](./lab2-password-reset) | **Password Reset & Account Management** | Simulate a password-reset help-desk ticket using Windows tools. |
-| [ 3 ](./lab3-network-drive) | **Automated Network Drive Mapping** | Use PowerShell to map shared drives and verify permissions. |
-| [ 4 ](./lab4-active-directory-user-management) | **Active Directory User Management** | Create and manage users, OUs, security groups, and department-based Group Policy Objects. |
-| [ 5 ](./lab5-troubleshooting-walkthrough) | **Troubleshooting Walkthrough (Network / Software / Hardware)** | Perform multi-domain diagnostics using evidence-based analysis and automated fix scripts. |
+| 1 | [Network File Sharing Setup](./lab1-network-share-setup) | Build a local server-client LAN, create a shared folder, and manage user access. |
+| 2 | [Password Reset & Account Management](./lab2-password-reset) | Simulate a password-reset help-desk ticket using Windows tools. |
+| 3 | [Automated Network Drive Mapping](./lab3-network-drive) | Use PowerShell to map shared drives and verify permissions. |
+| 4 | [Active Directory User Management](./lab4-active-directory-user-management) | Create and manage users, OUs, security groups, and department-based Group Policy Objects. |
+| 5 | [Troubleshooting Walkthrough (Network / Software / Hardware)](./lab5-troubleshooting-walkthrough) | Perform multi-domain diagnostics using evidence-based analysis and automated fix scripts. |
 
 ---
 
