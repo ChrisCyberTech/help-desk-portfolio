@@ -32,7 +32,6 @@ ping WORKSTATION01
 Test-NetConnection -ComputerName WORKSTATION01 -Port 3389
 
 yaml
-Copy code
 
 ---
 
@@ -44,7 +43,6 @@ Command:
 Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name fDenyTSConnections
 
 yaml
-Copy code
 
 ---
 
@@ -56,7 +54,6 @@ Command:
 Get-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 yaml
-Copy code
 
 ---
 
@@ -68,7 +65,6 @@ Command:
 Get-Service -Name TermService
 
 yaml
-Copy code
 
 ---
 
@@ -80,7 +76,6 @@ Command:
 netstat -an | find "3389"
 
 yaml
-Copy code
 
 ---
 
@@ -92,7 +87,6 @@ Command:
 Get-LocalGroupMember -Group "Remote Desktop Users"
 
 yaml
-Copy code
 
 ---
 
@@ -105,7 +99,6 @@ Add-LocalGroupMember -Group "Remote Desktop Users" -Member "LAB\Administrator"
 Get-LocalGroupMember -Group "Remote Desktop Users"
 
 yaml
-Copy code
 
 ---
 
@@ -123,8 +116,6 @@ Command:
 ping 192.168.64.2
 
 pgsql
-Copy code
-
 ---
 
 ## Root Cause
