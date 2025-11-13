@@ -7,7 +7,7 @@ The portfolio demonstrates not only technical ability but also **structured docu
 
 ---
 
-## 📁 Labs | Road Map 6-10 (In progress)
+## 📁 Labs | Road Map (In Progress)
 
 | Lab # | Title | Description |
 |------|--------|-------------|
