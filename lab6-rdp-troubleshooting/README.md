@@ -115,7 +115,6 @@ yaml
 Command:
 ping 192.168.64.2
 
-pgsql
 ---
 
 ## Root Cause
