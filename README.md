@@ -16,6 +16,11 @@ The portfolio demonstrates not only technical ability but also **structured docu
 | 3 | [Automated Network Drive Mapping](./lab3-network-drive) | Use PowerShell to map shared drives and verify permissions. |
 | 4 | [Active Directory User Management](./lab4-active-directory-user-management) | Create and manage users, OUs, security groups, and department-based Group Policy Objects. |
 | 5 | [Troubleshooting Walkthrough (Network / Software / Hardware)](./lab5-troubleshooting-walkthrough) | Perform multi-domain diagnostics using evidence-based analysis and automated fix scripts. |
+| 6 | [RDP Connectivity Troubleshooting](./lab6-rdp-troubleshooting) | Diagnose and resolve Remote Desktop connectivity issues using firewall checks, port testing, and credential validation. |
+| 7 | [Printer Offline & Spooler Reset](./lab7-printer-spooler-reset) | Fix printer connection problems by resetting spooler services, clearing queues, and reinstalling drivers. |
+| 8 | [Outlook Profile & Email Repair](./lab8-outlook-profile-fix) | Repair an Outlook profile using OST reset, profile rebuild, and autodiscover troubleshooting. |
+| 9 | [VPN Troubleshooting](./lab9-vpn-troubleshooting) | Diagnose VPN connection failures, DNS issues, port blocks, and certificate/credential errors. |
+| 10 | [System Performance Diagnostics](./lab10-system-performance-diagnostics) | Investigate and improve system performance using Task Manager, Event Viewer, and disk/health analysis tools. |
 
 ---
 
@@ -68,16 +73,15 @@ Each lab replicates **real-world Help Desk scenarios**, emphasizing **troublesho
 - Technical Writing & Troubleshooting Logs  
 
 ### 📚 Certifications (In Progress)  
-**UCLA Extension Cybersecurity Certificate (in progress)**
+**UCLA Extension Cybersecurity Certificate (in progress)**  
 - CompTIA **Network+** *(preparing)*  
 - CompTIA **Security+** *(next goal)*  
 
 ---
 
-💡 *This repository serves as a practical showcase of Help Desk and entry-level IT workflows, combining technical accuracy with professional documentation and real-world application.*
-
+💡 *This repository serves as a practical showcase of Help Desk and entry-level IT workflows, combining technical accuracy with professional documentation and real-world application.*  
 
 ---
 
-Created by **Luis Chris Mejia** 
+Created by **Luis Chris Mejia**  
 **Repository:** [Help-Desk Portfolio](https://github.com/ChrisCyberTech/help-desk-portfolio)
