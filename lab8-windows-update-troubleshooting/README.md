@@ -84,7 +84,6 @@ net stop bits
 net stop cryptsvc
 
 shell
-Copy code
 
 ### 5. Cleared Corrupted Update Cache  
 Deleted the SoftwareDistribution and Catroot2 directories:
@@ -93,7 +92,7 @@ rd /s /q C:\Windows\SoftwareDistribution
 rd /s /q C:\Windows\System32\catroot2
 
 yaml
-Copy code
+
 
 ### 6. Restarted Update Services  
 Restarted the services to rebuild update components:
@@ -103,7 +102,6 @@ net start bits
 net start cryptsvc
 
 makefile
-Copy code
 
 ### 7. Ran DISM to Repair Windows Image  
 Executed:
@@ -111,7 +109,6 @@ Executed:
 DISM /Online /Cleanup-Image /RestoreHealth
 
 makefile
-Copy code
 
 DISM completed successfully.
 
@@ -121,7 +118,6 @@ Executed:
 sfc /scannow
 
 yaml
-Copy code
 
 SFC completed with no integrity violations.
 
