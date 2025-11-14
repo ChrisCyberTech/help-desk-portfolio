@@ -18,7 +18,7 @@ The portfolio demonstrates not only technical ability but also **structured docu
 | 5 | [Troubleshooting Walkthrough (Network / Software / Hardware)](./lab5-troubleshooting-walkthrough) | Perform multi-domain diagnostics using evidence-based analysis and automated fix scripts. |
 | 6 | [RDP Connectivity Troubleshooting](./lab6-rdp-troubleshooting) | Diagnose and resolve Remote Desktop connectivity issues using firewall checks, port testing, and credential validation. |
 | 7 | [Printer Offline & Spooler Reset](./lab7-printer-spooler-reset) | Fix printer connection problems by resetting spooler services, clearing queues, and reinstalling drivers. |
-| 8 | [Outlook Profile & Email Repair](./lab8-outlook-profile-fix) | Repair an Outlook profile using OST reset, profile rebuild, and autodiscover troubleshooting. |
+| 8 | [Windows Update & Patch Troubleshooting](./lab8-windows-update-troubleshooting) | Diagnose and repair Windows Update failures using service resets, SoftwareDistribution cleanup, SFC/DISM, and update log analysis. |
 | 9 | [VPN Troubleshooting](./lab9-vpn-troubleshooting) | Diagnose VPN connection failures, DNS issues, port blocks, and certificate/credential errors. |
 | 10 | [System Performance Diagnostics](./lab10-system-performance-diagnostics) | Investigate and improve system performance using Task Manager, Event Viewer, and disk/health analysis tools. |
 
