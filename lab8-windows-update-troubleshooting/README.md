@@ -91,9 +91,6 @@ Deleted the SoftwareDistribution and Catroot2 directories:
 rd /s /q C:\Windows\SoftwareDistribution
 rd /s /q C:\Windows\System32\catroot2
 
-yaml
-
-
 ### 6. Restarted Update Services  
 Restarted the services to rebuild update components:
 
@@ -116,8 +113,6 @@ DISM completed successfully.
 Executed:
 
 sfc /scannow
-
-yaml
 
 SFC completed with no integrity violations.
 
