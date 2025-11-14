@@ -96,14 +96,10 @@ net start wuauserv
 net start bits
 net start cryptsvc
 
-makefile
-
 ### 7. Ran DISM to Repair Windows Image  
 Executed:
 
 DISM /Online /Cleanup-Image /RestoreHealth
-
-makefile
 
 DISM completed successfully.
 
