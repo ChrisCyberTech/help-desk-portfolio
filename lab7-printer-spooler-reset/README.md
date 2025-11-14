@@ -40,8 +40,6 @@ yaml
 Command used:
 net start spooler
 
-css
-
 ![05_Start_Spooler](screenshots/05_Start_Spooler.png)
 
 ### 06 – Reinstalled Microsoft Print to PDF
