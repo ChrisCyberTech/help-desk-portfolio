@@ -83,8 +83,6 @@ net stop wuauserv
 net stop bits
 net stop cryptsvc
 
-shell
-
 ### 5. Cleared Corrupted Update Cache  
 Deleted the SoftwareDistribution and Catroot2 directories:
 
